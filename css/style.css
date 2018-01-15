@@ -70,7 +70,7 @@ p,ul li,ol li{
 /*-- //main --*/ 
 /*-- header --*/ 
 .header-w3ls{
-    background: #00adb3;
+    background: #4386fc;
     padding:10px 20px;
 }
 button#trigger-overlay {
@@ -326,8 +326,8 @@ button#trigger-overlay i {
     -ms-border-radius: 50%;
 }
 .callbacks_here a:after{
-    background:#33cc99;
-    border:1px solid #33cc99;
+    background:#4386fc;
+    border:1px solid #4386fc;
     height:2px;
     width:40px;
     border-radius: 0;
@@ -340,20 +340,23 @@ button#trigger-overlay i {
     background: #eee;
 }
 .bnr-btm-grids-agileits {
-    width: 33%;
+    /*width: 33%;
     float: left;
-    padding-bottom: 10px;
+    padding-bottom: 10px;*/
+    width: 25%;
+    float: left;
+    padding-bottom: 25px;
 }
 .bnr-btm-icon {
     float: left;
 }
 .bnr-btm-icon i {
-    color: #00adb3;
+    color: #4386fc;
     font-size: 25px;
 }
 .bnr-btm-info {
     position: relative;
-    float: left;
+    /*float: left;*/
     padding-left: 19px;
 }
 .bnr-btm-info:before{
@@ -405,7 +408,7 @@ button#trigger-overlay i {
 .bottons-agileits-w3layouts a:hover {
     text-decoration: none;
     background: rgb(255, 255, 255);
-    color: #00adb3;
+    color: #4386fc;
     /* border-radius: 50px; */
     /* -webkit-border-radius: 50px; */
     -o-border-radius: 50px;
@@ -438,7 +441,7 @@ button#trigger-overlay i {
     margin: 0;
     width: 100%;
     border: none;
-    border-bottom: 2px solid #00adb3;
+    border-bottom: 2px solid #4386fc;
     -webkit-appearance: none;
     margin-bottom: 1em;
     background: transparent;
@@ -576,7 +579,7 @@ input.checkbox:checked:after {
     -webkit-appearance: none;
     text-transform: uppercase;
     transition: .5s all;
-    background: #00adb3;
+    background: #4386fc;
     display: inline-block;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -604,7 +607,7 @@ input.checkbox:checked:after {
     text-align: center;
     padding: 3em 0em;
     list-style: none;
-    background: #000;
+    background: #4386fc;
     display: inline-block;
     margin-bottom:10px;
     width: 49.5%;
@@ -625,7 +628,7 @@ a.opt-grids {
     text-decoration: none;
 }
 .options-wthree ul li:hover {
-    background: #00adb3;
+    background: #4386fc;
     transition:.5s ease-in;
     -webkit-transition:.5s ease-in;
     -moz-transition:.5s ease-in;
@@ -649,7 +652,7 @@ a.opt-grids {
     -ms-transition:.5s ease-in;
 }
 .icon-agileits-w3layouts i {
-    color: #017dc3 ;
+    color: #fff;
     font-size: 35px;
     transition:.5s ease-in;
     -webkit-transition:.5s ease-in;
@@ -724,7 +727,7 @@ a.opt-grids {
     float: left;
 }
 h5.subtittle-w3layouts {
-    color: #00adb3;
+    color: #4386fc;
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 28px;
@@ -763,13 +766,13 @@ p.para-wthree {
     text-decoration: none;
 }
 .panel-default {
-    border-color: #00adb3;
-    background: #00adb3;
+    border-color: #4386fc;
+    background: #4386fc;
 }
 .panel-default > .panel-heading {
     border-color: #FFF;
     color:#212121;
-       background-color: #00adb3;
+       background-color: #4386fc;
 }
 .panel-body {
     padding: 2em;
@@ -832,7 +835,7 @@ a.pa_italic:focus {
     font-weight: 600;
     display: inline-block;
     padding: 10px;
-    background: #00adb3;
+    background: #4386fc;
 }
 .w3layouts_stats_left i {
     font-size: 2.5em;
@@ -1034,7 +1037,7 @@ h4.tittle-w3layouts:before {
     -ms-transition: .5s ease-in;
 }
 .services-grids:hover {
-    background: #00adb3;
+    background: #4386fc;
      transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -1140,7 +1143,7 @@ h4.tittle-w3layouts:before {
 }
 [class^='imghvr-'] .agile-figcaption,
 [class*=' imghvr-'] .agile-figcaption {
-    background-color:#00adb3;
+    background-color:#4386fc;
     padding:3.5em;
     position: absolute;
     top: 0;
@@ -1401,7 +1404,7 @@ a.blog-more-agile {
 }
 a.blog-more-agile:hover {
     text-decoration: none;
-    background: #00adb3;
+    background: #4386fc;
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -1441,7 +1444,7 @@ a.blog-more-agile:hover {
     color: #000!important;
 }
 .location-agileits {
-    border-bottom: 3px solid #00adb3;
+    border-bottom: 3px solid #4386fc;
     padding: 20px 0;
 }
 .location-agileits:nth-child(3) {
@@ -1453,7 +1456,7 @@ a.blog-more-agile:hover {
 }
 .loc-left p a {
     text-decoration: none;
-    color: #00adb3;
+    color: #4386fc;
 }
 .loc-left p a:hover {
     text-decoration: none;
@@ -1532,8 +1535,8 @@ a.blog-more-agile:hover {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #00adb3;
-    border: solid 1px #00adb3;
+    background: #4386fc;
+    border: solid 1px #4386fc;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1594,7 +1597,7 @@ select.form-control {
     padding: 10px 20px;
     margin-top: 1em;
     font-size: 13px;
-    background: #00adb3;
+    background: #4386fc;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1617,7 +1620,7 @@ select.form-control {
     border: 3px solid rgb(234, 229, 229);
 }
 .form-agileits h3 {
-    color: #00adb3;
+    color: #4386fc;
     font-size: 19px;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -1638,7 +1641,7 @@ option {
     color:#fff;
 }
 .ui-datepicker .ui-datepicker-header {
-    background: #00adb3;
+    background: #4386fc;
 }
 .w3ls-location {
     background: url(../images/location.jpg) no-repeat 0px 0px;
@@ -1947,14 +1950,14 @@ ul.pagination {
 .opinion form input[type="submit"] {
     outline: none;
     -webkit-appearance: none;
-    border: solid 1px #00adb3;
+    border: solid 1px #4386fc;
     font-size: 13px;
     color: #ffffff;
     /* font-weight: 600; */
     padding: .7em 5em;
     text-decoration: none;
     letter-spacing: 1px;
-    background: #00adb3;
+    background: #4386fc;
     margin: 1em 0 0;
     transition: .5s all;
     -webkit-transition: .5s all;
@@ -2084,7 +2087,7 @@ ul.pagination {
     content: "";
     width: 44px;
     height: 2px;
-    background: #00adb3;
+    background: #4386fc;
     display: block;
     bottom: 8px;
     left: 0px;
@@ -3588,12 +3591,15 @@ h2.typoh2{
     }
 }
 /*--//responsive-design--*/
+.agendaTable{
+    width: 100%;
+}
 .agendaTable td,.agendaTable th{
     border-bottom: 1px solid #00000038;
     font-size:13px;
 }
 .agendaTable th{
-    background: #00adb3;
+    background: #4386fc;
     color:white;
     padding:5px 0;
     text-align: center;
@@ -3603,6 +3609,8 @@ h2.typoh2{
 }
 .agendaTable td{
     height: 35px;
+    border: 1px solid #ccc;
+    padding: 1px;
 }
 .agendaTable .break{
     background:rgba(1, 125, 195, 0.28);
@@ -3642,4 +3650,9 @@ h2.typoh2{
     color: #8e9093;
     margin: 0 0 2px;
     margin-bottom: 11px;
+}
+.welcome-msg{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
