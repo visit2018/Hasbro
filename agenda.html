@@ -16,6 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //For-Mobile-Apps-and-Meta-Tags -->
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/jquery-ui.css" />
 <link rel="stylesheet" type="text/css" href="css/style11.css" /><!-- menu style sheet -->
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
 <!-- //Custom Theme files -->
@@ -44,8 +45,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<section class="header-w3ls"> 
 			<button id="trigger-overlay" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
 			<div class="bottons-agileits-w3layouts">
+<!-- 			<a class="page-scroll" href="#myModal2" data-toggle="modal"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>.
+			<a class="page-scroll" href="#myModal3" data-toggle="modal"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Register</a> -->
 			</div>
-		<h1><a href="index.html">Contacts</a></h1>
+		<h1><a href="index.html">Agenda</a></h1>
 		<div class="clearfix"> </div>
 		</section>
 <!-- //menu -->
@@ -134,48 +137,61 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    <div class="container">
 		<div class="w3l_agileits_breadcrumbs_inner">
 			<ul>
-				<li><a href="index.html">Home</a><span>«</span></li>
+				<li class="menuday active" onclick="onDay('day1')">Day 1<span></span></li>
 									
-				<li>Contacts</li>
+				<li class="menuday" onclick="onDay('day2')">Day 2<span></span></li>
+				<li class="menuday" onclick="onDay('day3')">Day 3</li>
 				</ul>
 		</div>
 	</div>
 </div>		
 <!-- //breadcrumbs -->
-<!-- contact -->
-<div class="item">
-	<div class="avatar">
-		<img src="images/t1.jpg">
-	</div>
-	<div class="input-wrapper">
-		<h2>Chandramouli Ranganathan</h2>
-	    <p>+91 9884437275</p>
-	</div>
+<!-- Appointment -->
+<div class="appointment">
+   <div class="container">
+   	<table class="agendaTable day1">
+	    <tr><th class="date">From</th><th class="date">To</th><th>Event</th><th>Presenter</th></tr>
+	    <tr><td>10:30 AM</td><td>11.00 AM</td><td>Team Introduction</td><td>Offshore team</td></tr>
+	    <tr class="break"><td>11:00 AM</td><td>11:15 AM</td><td>Coffee and Bio break</td><td></td></tr>
+	    <tr><td>11:15 AM</td><td>12:00 PM</td><td>Discussion on BSI, Blend and BeamSuntory.com development</td><td>Kalyani , Sabrish, Jos Anto</td></tr>
+	    <tr class="break"><td>12:00 PM</td><td>12:45 PM</td><td>Lunch</td><td></td></tr>
+	    <tr><td>12:45 PM</td><td>1:30 PM</td><td>Siruseri Campus Visit</td><td>CVMS team / Admin</td></tr>
+	    <tr><td>1:30 PM</td><td>2:00 PM</td><td>Hasbro ODC floor walk through</td><td>Chandra</td></tr>
+	    <tr><td>2:00 PM</td><td>3:00 PM</td><td>Detailing on Drupal activities carried  out @ Hasbro</td><td>Krishna</td></tr>
+	    <tr class="break"><td>3:00 PM</td><td>3:15 PM</td><td>Coffee and Bio break</td><td></td></tr>
+	    <tr><td>3:15 PM</td><td>4:15 PM</td><td>Discussion with Manage Service team </td><td>Manage Service team</td></tr>
+	    <tr><td>4:15 PM</td><td>4:30 PM</td><td>Wrap up</td><td>Subbu and Kalyani</td></tr>
+	</table>
+	<table class="agendaTable day2">
+        <tr><th class="date">From</th><th class="date">To</th><th>Event</th><th>Presenter</th></tr>
+        <tr><td>10:00 AM</td><td>11.00 AM</td><td>TCS Digital Capabilities</td><td>Digital COE</td></tr>
+        <tr class="break"><td>11:00 AM</td><td>11:15 AM</td><td>Coffee and Bio break</td><td></td></tr>
+        <tr><td>11:15 AM</td><td>12:00 PM</td><td>TCS Engagements in Digital Marketing</td><td>Riddhi</td></tr>
+        <tr class="break"><td>12:00 PM</td><td>12:45 PM</td><td>Lunch</td><td></td></tr>
+        <tr><td>12:45 PM</td><td>1:30 PM</td><td>Mobile COE</td><td>Chandra and DI team</td></tr>
+        <tr><td>1:30 PM</td><td>2:15 PM</td><td>Digital COE Lab visit</td><td>Chandra</td></tr>
+        <tr><td>2:15 PM</td><td>3:00 PM</td><td>QA COE Lab visit</td><td>Chandra</td></tr>
+        <tr class="break"><td>3:00 PM</td><td>3:15 PM</td><td>Coffee and Bio break</td><td></td><td></td></tr>
+        <tr><td>3:15 PM</td><td>4:00 PM</td><td>QA – Experience from other large account implementation</td><td>Shivani Razdan</td></tr>
+        <tr><td>4:00 PM</td><td>4:15 PM</td><td>Day 2 Wrap up</td><td>Subbu and Kalyani</td></tr>
+	</table>
+	<table class="agendaTable day3">
+        <tr><th class="date">From</th><th class="date">To</th><th>Event</th><th>Presenter</th></tr>
+        <tr><td>10:15 AM</td><td>11.00 AM</td><td>IOT Session</td><td>Sandeep Ghosh</td></tr>
+        <tr class="break"><td>11:00 AM</td><td>11:15 AM</td><td>Coffee and Bio break</td><td></td></tr>
+        <tr><td>11:15 AM</td><td>12:00 PM</td><td>Bose ODC floor walk</td><td>Chandra</td></tr>
+        <tr class="break"><td>12:00 PM</td><td>1:00 PM</td><td>Lunch</td><td></td></tr>
+        <tr><td>1:30 PM</td><td>2:30 PM</td><td>Innovation</td><td>Zak and Sanjana</td></tr>
+        <tr class="break"><td>2:30 PM</td><td>3:00 PM</td><td>Coffee and Bio break</td><td></td></tr>
+        <tr><td>3:00 PM</td><td>4:00 PM</td><td>Rewards and Recognition</td><td>Subbu and Kalyani</td></tr>
+        <tr><td>4:00 PM</td><td>4:15 PM</td><td>Day 3 Wrap up and discussion on Sight visit / Shopping</td><td>Subbu and Kalyani</td></tr>
+    </table>
+
+	<div class="clearfix"> </div>
 </div>
-<div class="item">
-	<div class="avatar">
-		<img src="images/3.jpg">
-	</div>
-	<div class="input-wrapper">
-		<h2>Gontla Kalyani </h2>
-	    <p>+91 8754771534</p>
-	</div>
-</div>
-<div class="item">
-	<div class="avatar">
-		<img src="images/1.jpg">
-	</div>
-	<div class="input-wrapper">
-		<h2>Subbulakshmi</h2>
-	    <p>+91 9840807551</p>
-	</div>
-</div>
-	<!-- //contact --> 
+	<!-- //Appointment --> 
 <!--social-icons-->
 
-<!--//social-icons-->
-<!-- footer -->
-	
 <!-- //footer -->
 
 <!-- js -->
@@ -183,6 +199,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //js -->
 <script src="js/jquery.nicescroll.js"></script>
 <script src="js/scripts.js"></script>
+
+<!-- Calendar -->
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
 
 <!--jarallax -->
 	<script src="js/SmoothScroll.min.js"></script>
@@ -197,11 +222,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //banner -->
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
+		$(".agendaTable.day2").hide();
+		$(".agendaTable.day3").hide();
 		$(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
+	function onDay(i){
+		$(".menuday").removeClass("active");
+		if(i == 'day1'){
+			$(".agendaTable.day1").show(300);
+			$(".agendaTable.day2").hide();
+			$(".agendaTable.day3").hide();
+			$(".menuday:eq(0)").addClass("active");
+		}else if(i == 'day2'){
+			$(".agendaTable.day1").hide();
+			$(".agendaTable.day2").show(300);
+			$(".agendaTable.day3").hide();
+			$(".menuday:eq(1)").addClass("active");
+		}else{
+			$(".agendaTable.day1").hide();
+			$(".agendaTable.day2").hide();
+			$(".agendaTable.day3").show(300);
+			$(".menuday:eq(2)").addClass("active");
+		}
+		
+	}
 </script>
 <!--js for bootstrap working-->
 	<script src="js/bootstrap.js"></script>
